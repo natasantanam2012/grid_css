@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.2rem;
+}
+
+.contenedor {
+    padding: 10px;
+    border-color: blueviolet;
+    
+
+}
+
+.encabezado {
+    grid-area: encabezado;
+    background-color: #bcc906;   
+}
+
+.navegacion {
+    grid-area: navegacion;
+    background-color: #1327db;   
+}
+
+.menu_lateral {
+    grid-area: menu_lateral;
+    background-color: #db1313;   
+}
+
+.articulo {
+    grid-area: articulo;
+    background-color: #049208;   
+}
+
+.pie_de_pagina {
+    grid-area: pie_de_pagina;
+    background-color: #bd0d65;   
+}
+
+.contenedor {
+display: grid
+grid-template:
+   "encabezado encabezado encabezado" 100px
+   "navegacion navegacion navegacion" 50px
+   "menu_lateral articulo articulo" auto
+   "pie_de_pagina pie_de_pagina pie_de_pagina" 100px
+
+
+
+
+
